@@ -22,22 +22,28 @@ body,.diagonal-gradient{
       #button:hover{
 			color:red;
 			}
+            .panel-title{
+                margin-left:-175;
+                            }
 		.panel-body{
 			width: 180px;
 	
 			margin-left:520px ;
 			border-style:double;
-			border-radius: 10px;
-			border: 5px solid #dc143c;
-			box-shadow: 1px 2px 10px #555;
+            border-radius:10px;
+            border:2px solid #ccc;
+            padding:10px 40px 25px;
 			}
 
 </style>  
   
 <body>  
-  
+<div><h2 style="color:white">Home</h2> 
+			<a href="index.html"><img src="images/icon1-act.gif" alt="" /></a>
+				</div> 
 <div class="container">  
     <div class="row">  
+   
         <div class="col-md-4 col-md-offset-4">  
             <div class="login-panel panel panel-success">  
                 <div class="panel-heading">  

@@ -46,7 +46,7 @@
                     <h3 class="title">Search Vehicle details</h3>  
                 </div>  
 				 <div class="form-body">  
-	<form method="POST" action="sccodemodi.php" >
+	<form method="POST" action="searchmodi.php" >
 <input type="search" name="search" placeholder="Mp xx mr xxxx"><br>
 <button type="submit" name="submit" id="button">submit</button>
 </form>

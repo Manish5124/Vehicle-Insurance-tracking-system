@@ -88,10 +88,13 @@
 
 </head>
 <body>
+<div><h2 style="color:white">Home</h2> 
+				<a href="index.html"><img src="images/icon1-act.gif" alt="" /></a>
+				</div>
 	<div class='container'>
 		<div class='row'>
 			<div clas s='col-md-12'>
-			<h2>Registration Form</h2>
+			
 			</div>
 
 			<div class='col-md-6' >
@@ -124,6 +127,9 @@
 					?>
 				
 					<div class="main">
+					<div class="reg-color">
+			         <h1 style="color:white">Vehicle details</h1>	
+					</div>
 					 <div class="form-group">
 					    <label for="V_no">Vehicle no:</label>
 					    <input type="text" class="form-control" name="V_no" id="V_no" required="required" maxlength="80">
@@ -167,5 +173,6 @@
 			
 		</div>
 	</div>
+	header("Location: sendmail.php"); 
 </body>
 </html>

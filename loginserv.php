@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
  
  $rows = mysqli_num_rows($query);
  if($rows == 1){
- header("Location: welcome.php"); // Redirecting to other page
+ header("Location: searchmodi.php"); // Redirecting to other page
  }
  else
  {

@@ -147,12 +147,14 @@ $("#sshow").on("click",function(){
 </script>
 </head>
 <body>
-	
+<div><h2 style="color:white">Home</h2> 
+			<a href="index.html"><img src="images/icon1-act.gif" alt="" /></a>
+				</div>
 	<div class='container'>
 		<div class='row'>
 			<div class="col-md-12">
-			<h2>Registration Form</h2>
-			</div>
+			
+		</div>
 
 			<div class="col-md-8" >
  					
@@ -182,7 +184,11 @@ $("#sshow").on("click",function(){
 					<?php
 					}
 					?>
+					
 					<div class="main">
+						<div class="reg-color">
+			         <h1 style="color:white">User details</h1>	
+					</div>
 					<div class="form-group">
 					    <label for="fname">First Name:</label>
 					    <input type="text" class="form-control" name="fname" id="fname" required="required" maxlength="50"  autofocus>
@@ -192,6 +198,7 @@ $("#sshow").on("click",function(){
 					    <input type="text" class="form-control" name="lname" id="lname" required="required" maxlength="50"  autofocus>
 					</div>
 					<div class="form-group">
+					
 					    <label for="email">Email address:</label>
 					    <input type="email" class="form-control" name="email" id="email" required="required" maxlength="50"  autofocus>
 					</div>

@@ -23,6 +23,7 @@ include("loginserv.php"); // Include loginserv for checking username and passwor
 				background:linear-gradient(to bottom right,blue,black);
 				background-repeat:no-repeat;
 			}
+			
 			#seen{
 			 			color:black;
 	        position: relative;
@@ -41,7 +42,8 @@ font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", seri
 border-radius:10px;
 border:2px solid #ccc;
 padding:10px 40px 25px;
-margin-top:70px; 
+margin-top:250px; 
+margin-bottom:250px;
 }
 input[type=text], input[type=password]{
 width:99%;
@@ -86,6 +88,9 @@ $("#seen").on("click",function(){
 </script>
 </head>
 <body>
+<div><h2 style="color:white">Home</h2> 
+			<a href="index.html"><img src="images/icon1-act.gif" alt="" /></a>
+				</div>
 <div class="login">
 <h1 align="center">Login</h1>
 <form action="" method="post" style="text-align:center;">

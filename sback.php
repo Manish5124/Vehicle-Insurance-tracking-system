@@ -36,7 +36,7 @@
 
 			$success_message = "Account created successfully";
 			header("Location: success.php"); 
-			header("Location: sendmail.php"); 
+			 
 		}
 	}
 	?>

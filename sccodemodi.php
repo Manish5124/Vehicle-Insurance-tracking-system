@@ -33,10 +33,10 @@
     <body>     
 	
 <div><h2 style="color:white">Home</h2> 
-			<a href=""><img src="images/icon1-act.gif" alt="" /></a>
+			<a href="index.html"><img src="images/icon1-act.gif" alt="" /></a>
 				</div>    
 		<link href = "style.css" type = "text/css" rel = "stylesheet" /> 
-	     <h3 id="link"><a href="index.html" >home</a></h3>
+	   
 	     <h1 id="title">	VEHICLE DETAILS </h1>
 		<table id="table" width = "100%" border = "1" >    
             <tr>    

@@ -19,7 +19,9 @@ $result = mysqli_query($con,$sql);
 				color:white;
 			}
 </style>
-    <body>         
+    <body>       <div><h2 style="color:white">Home</h2> 
+			<a href="index.html"><img src="images/icon1-act.gif" alt="" /></a>
+				</div>   
 		<link href = "style.css" type = "text/css" rel = "stylesheet" /> 
 		<h1>  Details </h1> 
 	
